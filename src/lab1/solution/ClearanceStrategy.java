@@ -9,10 +9,10 @@ package lab1.solution;
  * @author rbath1
  */
 public class ClearanceStrategy implements DiscountStrategy {
-    private static final double discount = .5;
+    private static final double DISC = .5;
     @Override
     public double getDiscountInDollars(double price){
         //50% off
-           return price * discount;
+           return price * DISC;
     }
 }
